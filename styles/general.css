@@ -1,0 +1,49 @@
+html {
+  overflow: auto;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+body {
+  font-size: 10px;
+  font-family: Roboto, Arial;
+  margin: 0;
+  padding: 80px 24px 0px 96px;
+
+  position: absolute;
+  top: 0px;
+  left: 20px;
+  bottom: 0px;
+  right: 5px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+body-container {
+  width: 24px;
+  overflow-y: auto;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #ffffff;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 5px;
+  height: 50px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
